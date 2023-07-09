@@ -11,6 +11,8 @@
                 color: white;
                 font-family: 'Special Elite', cursive;
                 padding: 50px;
+                max-width: 100%;
+                display: flexbox;
             }
             ul, ol {
                 list-style: none;
@@ -21,7 +23,9 @@
   color: white;
   background: red;
 }
-
+li:before{
+    content: '- ';
+}
 ::selection {
   color: white;
   background: red;
@@ -37,7 +41,7 @@
         <li><a rel="mail" href="mailto:g.pichok@hotmail.com">E-mail</a></li>
     </ul>
     <h2>/textos</h2>
-    <ol>
+    <ul>
         <li><a href="https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/">What to know about Threads - Eugen Rochko</a></li>
         <li><a href="https://fristuti.wordpress.com/2015/04/14/information-ussr/">The USSR in Figures, 1960 – Important Statistical Data Relating to the National Economy of the USSR from the “Information USSR”, Vol. I, Robert Maxwell, 1962</a></li>
         <li><a href="http://etimologias.dechile.net/">Diccionário Etimológico de Castellano en Línea etimologia</a></li>
@@ -46,8 +50,11 @@
         <li><a href="https://argoshare.is.ed.ac.uk/healthyr_book/">R for Health Data Science</a></li>
         <li><a href="https://www.erowid.org/">Erowid: documenting the complex relationshipt between humans and pyschoactives</a></li>
         <li>UpToDate</li>
-        <li>Pinterest</li>       
-    </ol>
+        <li>Pinterest</li>
+        <li><a href="https://innovative-dolphin-67e.notion.site/Artigos-Sa-de-Marxista-DSPSD-7a677ea85dbc4ef684698a2b6f4ec432">Artigos Saúde Camarada</a></li>       
+        <li><a href="https://www.morling.dev/blog/the-code-review-pyramid/">The Code Review Pyramid -  Gunnar Morling</a></li>       
+        <li><a href="http://jfloren.net/b/2023/7/7/0">ProtonMail Rewrites Your Emails -  John Floren</a></li>       
+    </ul>
 <!--     
     <h2>/menu</h2>
     <h3><a href="/">/android</a></h3>
