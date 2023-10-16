@@ -1465,6 +1465,11 @@ input:checked + .toggle-bg {
   --tw-border-opacity: 1;
   border-color: rgb(28 100 242 / var(--tw-border-opacity));
 }
+.border-pink {
+  border-top-width: 2px;
+border-style: dashed;
+border-color: #CE68A7;
+}
 
 .bg-white {
   --tw-bg-opacity: 1;
