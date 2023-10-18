@@ -2462,3 +2462,10 @@ border-color: #CE68A7;
     line-height: 1;
   }
 }
+
+.hover\:bg-pink:hover {
+  background-color: #CE68A7;
+}
+.bg-pink {
+  background-color: #CE68A7;
+}
