@@ -1,0 +1,4 @@
+baseURL: http://pichok.github.io/med-4/
+languageCode: es
+title: My New Hugo Site
+theme: hextra
