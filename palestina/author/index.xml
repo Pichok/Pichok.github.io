@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Palestina Livre</title>
-    <link>https://pichok.github.io/palestina/author/</link>
+    <link>/author/</link>
     <description>Recent content in Author on Palestina Livre</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 31 Dec 1969 21:33:07 -0300</lastBuildDate><atom:link href="https://pichok.github.io/palestina/author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 1969 21:33:07 -0300</lastBuildDate><atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antonio Gramsci</title>
-      <link>https://pichok.github.io/palestina/author/antonio-gramsci/</link>
+      <link>/author/antonio-gramsci/</link>
       <pubDate>Wed, 31 Dec 1969 21:33:07 -0300</pubDate>
       
-      <guid>https://pichok.github.io/palestina/author/antonio-gramsci/</guid>
+      <guid>/author/antonio-gramsci/</guid>
       <description></description>
     </item>
     

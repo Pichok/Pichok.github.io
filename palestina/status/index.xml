@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statuses on Palestina Livre</title>
-    <link>https://pichok.github.io/palestina/status/</link>
+    <link>/status/</link>
     <description>Recent content in Statuses on Palestina Livre</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 15 Dec 2021 10:45:44 +0200</lastBuildDate><atom:link href="https://pichok.github.io/palestina/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Dec 2021 10:45:44 +0200</lastBuildDate><atom:link href="/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://pichok.github.io/palestina/status/hello-world/</link>
+      <link>/status/hello-world/</link>
       <pubDate>Wed, 15 Dec 2021 10:45:44 +0200</pubDate>
       
-      <guid>https://pichok.github.io/palestina/status/hello-world/</guid>
+      <guid>/status/hello-world/</guid>
       <description>Que bom que chegou até aqui! Estamos reunindo materiais para auxiliar nossos camaradas e companheiros a entender mais sobre o conflito para que estejam equipados com as Armas da Crítica tão necessárias para elucidação desse complexo tema. Não temos o propósito de ser a única fonte, mas de facilitar o acesso a materiais que devem ser distribuidos exaustívamente de todas as formas possíveis para desmentir o discurso genocída de Israel propagado pela mídia hegêmonica.</description>
     </item>
     

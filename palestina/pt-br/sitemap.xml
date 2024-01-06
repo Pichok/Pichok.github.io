@@ -2,101 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pichok.github.io/palestina/status/hello-world/</loc>
+    <loc>/status/hello-world/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/status/hello-world/"
+                href="/es-py/status/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/status/hello-world/"
+                href="/status/hello-world/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/</loc>
+    <loc>/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/"
+                href="/es-py/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/"
+                href="/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/status/</loc>
+    <loc>/status/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/status/"
+                href="/es-py/status/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/status/"
+                href="/status/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/author/antonio-gramsci/</loc>
+    <loc>/author/antonio-gramsci/</loc>
     <lastmod>1969-12-31T21:33:07-03:00</lastmod>
   </url><url>
-    <loc>https://pichok.github.io/palestina/author/</loc>
+    <loc>/author/</loc>
     <lastmod>1969-12-31T21:33:07-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/author/"
+                href="/es-py/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/author/"
+                href="/author/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/quote/gramsci/</loc>
+    <loc>/quote/gramsci/</loc>
     <lastmod>1969-12-31T21:33:07-03:00</lastmod>
   </url><url>
-    <loc>https://pichok.github.io/palestina/quote/</loc>
+    <loc>/quote/</loc>
     <lastmod>1969-12-31T21:33:07-03:00</lastmod>
   </url><url>
-    <loc>https://pichok.github.io/palestina/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/categories/"
+                href="/es-py/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/series/</loc>
+    <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/series/"
+                href="/es-py/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/series/"
+                href="/series/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/tags/</loc>
+    <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/tags/"
+                href="/es-py/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/tags/"
+                href="/tags/"
                 />
   </url>
 </urlset>
