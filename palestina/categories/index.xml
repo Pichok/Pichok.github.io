@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Palestina Livre</title>
-    <link>/categories/</link>
+    <link>https://pichok.github.io/palestina/categories/</link>
     <description>Recent content in Categories on Palestina Livre</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="https://pichok.github.io/palestina/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

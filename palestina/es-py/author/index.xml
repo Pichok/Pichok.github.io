@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Palestina Libre</title>
-    <link>/es-py/author/</link>
+    <link>https://pichok.github.io/palestina/es-py/author/</link>
     <description>Recent content in Author on Palestina Libre</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-py</language><atom:link href="/es-py/author/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-py</language><atom:link href="https://pichok.github.io/palestina/es-py/author/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
