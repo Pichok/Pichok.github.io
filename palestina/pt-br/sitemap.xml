@@ -8,6 +8,41 @@
     <loc>https://pichok.github.io/palestina/page/github/</loc>
     <lastmod>2021-11-01T13:17:56+01:00</lastmod>
   </url><url>
+    <loc>https://pichok.github.io/palestina/video/historia-publica/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pichok.github.io/palestina/author/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/author/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/author/hist%C3%B3ria-p%C3%BAblica/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pichok.github.io/palestina/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/video/</loc>
+    <lastmod>2023-11-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pichok.github.io/palestina/status/hello-world/</loc>
     <lastmod>2021-12-15T10:45:44+02:00</lastmod>
     <xhtml:link
@@ -19,19 +54,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://pichok.github.io/palestina/status/hello-world/"
-                />
-  </url><url>
-    <loc>https://pichok.github.io/palestina/</loc>
-    <lastmod>2021-12-15T10:45:44+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://pichok.github.io/palestina/"
                 />
   </url><url>
     <loc>https://pichok.github.io/palestina/status/</loc>
@@ -50,30 +72,14 @@
     <loc>https://pichok.github.io/palestina/page/</loc>
     <lastmod>2021-11-01T13:18:45+01:00</lastmod>
   </url><url>
-    <loc>https://pichok.github.io/palestina/author/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://pichok.github.io/palestina/author/"
-                />
+    <loc>https://pichok.github.io/palestina/audio/revolushow/</loc>
+    <lastmod>2018-07-16T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pichok.github.io/palestina/video/tese-onze/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pichok.github.io/palestina/author/tese-onze/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pichok.github.io/palestina/video/</loc>
-    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <loc>https://pichok.github.io/palestina/audio/</loc>
+    <lastmod>2018-07-16T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pichok.github.io/palestina/categories/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-16T10:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
@@ -84,6 +90,18 @@
                 hreflang="pt-br"
                 href="https://pichok.github.io/palestina/categories/"
                 />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/categories/podcast/</loc>
+    <lastmod>2018-07-16T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pichok.github.io/palestina/author/revolushow/</loc>
+    <lastmod>2018-07-16T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pichok.github.io/palestina/video/tese-onze/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pichok.github.io/palestina/author/tese-onze/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pichok.github.io/palestina/link/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
