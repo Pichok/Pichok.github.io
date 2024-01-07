@@ -41,7 +41,112 @@
                 href="https://pichok.github.io/palestina/es-py/status/"
                 />
   </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/categories/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/categories/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/link/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/link/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/link/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/link/onu/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/link/onu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/link/onu/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/categories/privacy/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/categories/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/categories/privacy/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/tags/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/tags/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/tags/un/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/tags/un/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/tags/un/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/quote/gramsci/</loc>
+    <lastmod>1969-12-31T21:33:07-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/quote/gramsci/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/quote/gramsci/"
+                />
+  </url><url>
+    <loc>https://pichok.github.io/palestina/es-py/author/antonio-gramsci/</loc>
+    <lastmod>1969-12-31T21:33:07-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://pichok.github.io/palestina/author/antonio-gramsci/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-py"
+                href="https://pichok.github.io/palestina/es-py/author/antonio-gramsci/"
+                />
+  </url><url>
     <loc>https://pichok.github.io/palestina/es-py/author/</loc>
+    <lastmod>1969-12-31T21:33:07-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -53,16 +158,17 @@
                 href="https://pichok.github.io/palestina/es-py/author/"
                 />
   </url><url>
-    <loc>https://pichok.github.io/palestina/es-py/categories/</loc>
+    <loc>https://pichok.github.io/palestina/es-py/quote/</loc>
+    <lastmod>1969-12-31T21:33:07-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://pichok.github.io/palestina/categories/"
+                href="https://pichok.github.io/palestina/quote/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/categories/"
+                href="https://pichok.github.io/palestina/es-py/quote/"
                 />
   </url><url>
     <loc>https://pichok.github.io/palestina/es-py/series/</loc>
@@ -75,18 +181,6 @@
                 rel="alternate"
                 hreflang="es-py"
                 href="https://pichok.github.io/palestina/es-py/series/"
-                />
-  </url><url>
-    <loc>https://pichok.github.io/palestina/es-py/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://pichok.github.io/palestina/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-py"
-                href="https://pichok.github.io/palestina/es-py/tags/"
                 />
   </url>
 </urlset>

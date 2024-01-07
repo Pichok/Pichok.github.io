@@ -5,6 +5,16 @@
     <link>https://pichok.github.io/palestina/es-py/categories/</link>
     <description>Recent content in Categories on Palestina Libre</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-py</language><atom:link href="https://pichok.github.io/palestina/es-py/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-py</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://pichok.github.io/palestina/es-py/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy</title>
+      <link>https://pichok.github.io/palestina/es-py/categories/privacy/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pichok.github.io/palestina/es-py/categories/privacy/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
