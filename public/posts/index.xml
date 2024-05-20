@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on pichok</title>
+    <title>Posts on G. Pichok</title>
     <link>https://pichok.github.io/public/posts/</link>
-    <description>Recent content in Posts on pichok</description>
+    <description>Recent content in Posts on G. Pichok</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 27 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://pichok.github.io/public/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -18,6 +18,17 @@ Using indents:
 texttexttextFenced code block:
 texttext&amp;lt;tag&amp;gt; Fenced code block with language (lineNumbersInTable = false):
 1// JavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJava 2public final class String 3 implements java.io.Serializable, Comparable&amp;lt;String&amp;gt;, CharSequence 4{ 5 /** The value is used for character storage. */ 6 private final char value[]; 7 8 /** The offset is the first index of the storage that is used. */ 9 private final int offset; 10 11 /** The count is the number of characters in the String.</description>
+    </item>
+    
+    <item>
+      <title>Gallery Post</title>
+      <link>https://pichok.github.io/public/posts/gallery/</link>
+      <pubDate>Sun, 27 Jun 2021 00:16:18 +0000</pubDate>
+      
+      <guid>https://pichok.github.io/public/posts/gallery/</guid>
+      <description>This post contains 4 photos:
+Widescreen wallpaper Portrait photo Dual widescreen wallpaper Small photo All photos should be displayed properly.
+From Wallbase.cc</description>
     </item>
     
     <item>
