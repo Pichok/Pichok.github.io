@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Changes to String in java (from 1.7.0_06) | G. Pichok</title>
   <link rel = 'canonical' href = 'https://pichok.github.io/public/posts/2020-06-06-changes-in-java-string/'>
-  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse de um algoritmo ou de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
+  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse do algoritmo ou digno de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -99,74 +99,15 @@ http://hg.openjdk.java.net/jdk6/jdk6/jdk/file/8deef18bb749/src/share/classes/jav
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
-        <li>
-          <a class="icon" href="#" aria-label="Share">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
+        
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
       <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
+      
     </span>
     <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f" aria-label="Facebook">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&text=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="Twitter">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&title=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="Linkedin">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&is_video=false&description=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="Pinterest">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29&body=Check out this article: https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f" aria-label="Email">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&title=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="Pocket">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&title=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="reddit">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&name=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29&description=Before%201.7.0_06%2c%20String%20has%204%20non%20static%20field%3a%0achar%5b%5d%20value%20int%5b%5d%20offset%20int%20count%20int%20hash%20Subing.substring%20create%20a%20String%20by%20sharing%20the%20original%20String%26rsquo%3bs%20internal%20char%5b%5d%20value%20and%20setting%20offset.%20This%20saves%20memory%20and%20makes%20String.substring%20run%20in%20a%20constant%20time%28%24O%281%29%24%29.%20Meanwhile%2c%20this%20feature%20may%20cause%20memory%20leak1.%0ahttp%3a%2f%2fhg.openjdk.java.net%2fjdk6%2fjdk6%2fjdk%2ffile%2f8deef18bb749%2fsrc%2fshare%2fclasses%2fjava%2flang%2fString.java%0a1public%20final%20class%20String%202%20implements%20java.io.Serializable%2c%20Comparable%26lt%3bString%26gt%3b%2c%20CharSequence%203%7b%204%20%2f%2a%2a%20The%20value%20is%20used%20for%20character%20storage.%20%2a%2f%205%20private%20final%20char%20value%5b%5d%3b%206%207%20%2f%2a%2a%20The%20offset%20is%20the%20first%20index%20of%20the%20storage%20that%20is%20used." aria-label="Tumblr">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-06-06-changes-in-java-string%2f&t=Changes%20to%20String%20in%20java%20%28from%201.7.0_06%29" aria-label="Hacker News">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
-    </div>
     
     <div id="toc">
       <nav id="TableOfContents"></nav>
@@ -498,8 +439,7 @@ Meanwhile, this feature may cause <strong>memory leak</strong><sup id="fnref:1">
         <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
         
-        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        
         <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>

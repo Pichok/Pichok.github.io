@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Programming Language - Subtyping | G. Pichok</title>
   <link rel = 'canonical' href = 'https://pichok.github.io/public/posts/2020-04-29-subtyping/'>
-  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse de um algoritmo ou de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
+  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse do algoritmo ou digno de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -93,74 +93,15 @@
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
-        <li>
-          <a class="icon" href="#" aria-label="Share">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
+        
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
       <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
+      
     </span>
     <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f" aria-label="Facebook">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&text=Programming%20Language%20-%20Subtyping" aria-label="Twitter">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&title=Programming%20Language%20-%20Subtyping" aria-label="Linkedin">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&is_video=false&description=Programming%20Language%20-%20Subtyping" aria-label="Pinterest">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=Programming%20Language%20-%20Subtyping&body=Check out this article: https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f" aria-label="Email">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&title=Programming%20Language%20-%20Subtyping" aria-label="Pocket">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&title=Programming%20Language%20-%20Subtyping" aria-label="reddit">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&name=Programming%20Language%20-%20Subtyping&description=Some%20Good%20Subtyping%20Rules%20Width%20subtyping%3a%20A%20supertype%20can%20have%20a%20subset%20of%20fields%20with%20the%20same%20types%2c%20i.e.%2c%20a%20subtype%20can%20have%20extra%20fields.%20Permutation%20subtypings%3a%20A%20supertype%20can%20have%20the%20same%20set%20of%20fields%20with%20the%20same%20types%20in%20a%20different%20order.%20Transitivity%3a%20if%20t1%20is%20subtype%20of%20t2%2c%20and%20t2%20is%20subtype%20of%20t3%2c%20then%20t1%20is%20subtype%20of%20t3.%20Reflexivity%3a%20Every%20type%20is%20a%20subtype%20of%20itself." aria-label="Tumblr">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2020-04-29-subtyping%2f&t=Programming%20Language%20-%20Subtyping" aria-label="Hacker News">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
-    </div>
     
     <div id="toc">
       <nav id="TableOfContents">
@@ -328,8 +269,7 @@ If t3 is subtype of t1, and t2 is a subtype of t4, then <code>t1 -&gt; t2</code>
         <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
         
-        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        
         <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>

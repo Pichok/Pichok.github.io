@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Standard ML notes | G. Pichok</title>
   <link rel = 'canonical' href = 'https://pichok.github.io/public/posts/2019-12-30-standardml-notes/'>
-  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse de um algoritmo ou de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
+  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse do algoritmo ou digno de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -95,74 +95,15 @@
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
-        <li>
-          <a class="icon" href="#" aria-label="Share">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
+        
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
       <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
+      
     </span>
     <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f" aria-label="Facebook">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&text=Standard%20ML%20notes" aria-label="Twitter">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&title=Standard%20ML%20notes" aria-label="Linkedin">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&is_video=false&description=Standard%20ML%20notes" aria-label="Pinterest">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=Standard%20ML%20notes&body=Check out this article: https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f" aria-label="Email">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&title=Standard%20ML%20notes" aria-label="Pocket">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&title=Standard%20ML%20notes" aria-label="reddit">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&name=Standard%20ML%20notes&description=Basics%20Comments%20%28%2a%20SML%20comment%20%2a%29%20Variable%20bindings%20and%20Expressions%20val%20x%20%3d%2034%3b%0d%28%2a%20static%20environment%3a%20x%20%3a%20int%20%2a%29%0d%28%2a%20dynamic%20environment%3a%20x%20--%26gt%3b%2034%20%2a%29%0dval%20y%20%3d%20x%20%2b%201%3b%0d%28%2a%20Use%20tilde%20character%20instead%20of%20minus%20to%20reprsent%20negation%20%2a%29%0dval%20z%20%3d%20~1%3b%0d%28%2a%20Integer%20Division%20%2a%29%0dval%20w%20%3d%20y%20div%20x%20Strings%3a%0a%28%2a%20%60%5cn%60%e3%81%ae%e3%82%88%e3%81%86%e3%81%aa%e3%82%a8%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%97%e3%82%b7%e3%83%bc%e3%82%b1%e3%83%b3%e3%82%b9%e3%81%8c%e5%88%a9%e7%94%a8%e3%81%a7%e3%81%8d%e3%82%8b%20%2a%29%0dval%20x%20%3d%20%26%2334%3bhello%5cn%26%2334%3b%3b%20%28%2a%20%e6%96%87%e5%ad%97%e5%88%97%e3%81%ae%e9%80%a3%e7%b5%90%e3%81%ab%e3%81%af%26%2339%3b%5e%26%2339%3b%e3%82%92%e4%bd%bf%e3%81%86%20%2a%29%0dval%20y%20%3d%20%26%2334%3bhello%20%26%2334%3b%20%5e%20%26%2334%3bworld%26%2334%3b%3b%20An%20ML%20program%20is%20a%20sequence%20of%20bindings." aria-label="Tumblr">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-12-30-standardml-notes%2f&t=Standard%20ML%20notes" aria-label="Hacker News">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
-    </div>
     
     <div id="toc">
       <nav id="TableOfContents">
@@ -902,8 +843,7 @@ end
         <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
         
-        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        
         <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>

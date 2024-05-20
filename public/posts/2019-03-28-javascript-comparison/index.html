@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> JavaScript Comparison operation at a glance | G. Pichok</title>
   <link rel = 'canonical' href = 'https://pichok.github.io/public/posts/2019-03-28-javascript-comparison/'>
-  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse de um algoritmo ou de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
+  <meta name="description" content="Nesse espaço compartilho meus projetos, devaneios, músicas que tenho ouvido, links que possam ser úteis a mais alguém (ou inúteis) e tudo mais que não é de interesse do algoritmo ou digno de receber grande público, mas que todavía merecem um lugar na internet.. Passemos a utilizá-la do modo que queremos, sem a contaminação artifical das máquinas comandadas pelos monopólios de tecnologia.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -101,74 +101,15 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
-        <li>
-          <a class="icon" href="#" aria-label="Share">
-            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
-          </a>
-        </li>
+        
       </ul>
       <span id="i-prev" class="info" style="display:none;">Previous post</span>
       <span id="i-next" class="info" style="display:none;">Next post</span>
       <span id="i-top" class="info" style="display:none;">Back to top</span>
-      <span id="i-share" class="info" style="display:none;">Share post</span>
+      
     </span>
     <br/>
-    <div id="share" style="display: none">
-      
-      <ul>
-  
-  
     
-  
-  
-  <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Facebook">
-      <i class="fab fa-facebook " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&text=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Twitter">
-      <i class="fab fa-twitter " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Linkedin">
-      <i class="fab fa-linkedin " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&is_video=false&description=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pinterest">
-      <i class="fab fa-pinterest " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="mailto:?subject=JavaScript%20Comparison%20operation%20at%20a%20glance&body=Check out this article: https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Email">
-      <i class="fas fa-envelope " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pocket">
-      <i class="fab fa-get-pocket " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="reddit">
-      <i class="fab fa-reddit " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&name=JavaScript%20Comparison%20operation%20at%20a%20glance&description=When%20given%20a%20scenario%20like%3a%0a1console.log%28null%20%26gt%3b%20-1%29%20%2f%2ftrue%20It%20produces%20true%2c%20which%20makes%20me%20think%20null%20is%20treated%20as%200.%20But%20when%20I%20run%3a%0a1console.log%28null%20%3d%3d%200%29%20%2f%2f%20false%202console.log%28null%20%26gt%3b%200%29%20%2f%2f%20false%203console.log%28null%20%26lt%3b%200%29%20%2f%2f%20false%20They%20all%20output%20false%21%0aI%20googled%20a%20lot%20and%20finally%20found%20answers%20in%20Ecma-262%20Specification.%0aThe%20comparison%20x%20%3d%3d%20y%2c%20where%20x%20and%20y%20are%20values%2c%20produces%20true%20or%20false.%20Such%20a%20comparison%20is%20performed%20as%20follows%3a" aria-label="Tumblr">
-      <i class="fab fa-tumblr " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fpichok.github.io%2fpublic%2fposts%2f2019-03-28-javascript-comparison%2f&t=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Hacker News">
-      <i class="fab fa-hacker-news " aria-hidden="true"></i>
-    </a>
-  </li>
-</ul>
-
-    </div>
     
     <div id="toc">
       <nav id="TableOfContents">
@@ -352,8 +293,7 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
         <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
         
-        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
-          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        
         <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>
